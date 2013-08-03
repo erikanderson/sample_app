@@ -11,4 +11,24 @@ require 'spec_helper'
 	  it { should have_selector('title', text: full_title('Sign up')) }
 	end
 
+	describe "signup" do
+
+		before { visit signup_path }
+
+		describe "with invalid information" do
+			it "should not create a user" do
+				old_count = User.count
+				click_button "Create my account"
+				new_count = User.count
+				new_count.should == old_count
+			end
+		end
+
+		describe "with valid information" do
+			it "should create a user" do
+			end
+
+		end
+	end
+
 end
