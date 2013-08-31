@@ -1,6 +1,5 @@
 class SessionsController < ApplicationController
-<<<<<<< HEAD
-=======
+
 
 	def new
 	end
@@ -21,5 +20,5 @@ class SessionsController < ApplicationController
 		redirect_to root_path
 	end
 
->>>>>>> sign-in-out
+
 end
