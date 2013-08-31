@@ -1,8 +1,8 @@
 require 'spec_helper'
 
 describe "AuthenticationPages" do
-<<<<<<< HEAD
-  describe "GET /authentication_pages" do
+
+  describe "GET /athentication_pages" do
     it "works! (now write some real specs)" do
       # Run the generator again with the --webrat flag if you want to use webrat methods/matchers
       get authentication_pages_index_path
@@ -10,7 +10,7 @@ describe "AuthenticationPages" do
     end
   end
 end
-=======
+
   
 	subject { page } 
 
@@ -54,4 +54,3 @@ end
   end
 end
 
->>>>>>> sign-in-out
